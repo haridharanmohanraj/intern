@@ -1,0 +1,139 @@
+*{
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    text-align:center;
+    font-weight:400 ;
+
+}
+.nav ul{
+height:8vh;
+ display: flex;
+ justify-content: space-between;
+ background-color: red;
+ border-radius:8px;
+
+}
+#whats{
+    border-radius:50%;
+    height:5vh;
+    width:20px;
+    
+}
+li{
+    list-style-type: none;
+    margin-top:15px;
+}
+#nav1{
+    height:4vh;
+    background-color: yellowgreen;
+    font-weight: 500;
+    border-radius:2px;
+    width:100px;
+    text-align:center;
+    padding:5px;
+
+}
+#nav1:hover{
+    background-color: black;
+    color: aliceblue;
+    font-weight:600;
+    cursor: pointer;
+}
+.about{
+    background-color: blue;
+    height:20vh;
+    text-align: center;
+    margin-top:90px;
+
+
+}
+.about  h3{
+    background-color: black;
+    color: aliceblue;
+    padding-left:20px;
+    text-align:center; 
+}
+
+
+.product{
+    margin-top:90px;
+    background-color: green;
+  
+}
+img{
+    height:40vh;
+    width:30%;
+    justify-content:space-between;
+    margin-left:40px;
+}
+video{
+    width: 30%;
+    margin-left:40px;
+}
+
+.Service{
+    margin-top:90px;
+    display:flex;
+   height:40vh;
+    background-color:grey;
+  
+}
+.para1{
+    display: flex;
+    width:40%;
+    padding:20px;
+    margin-top:40px;
+}
+.para2{
+    display: flex;
+    width:40%;
+    padding:20px;
+    margin-left: 250px;
+    margin-top:40px;
+ 
+
+}
+.ser1 ,.ser2{
+    margin-left: 70px;
+    background-color:black;
+    color: aliceblue;
+    border-radius:4px;
+  
+    
+}
+.ser11{
+    margin-left: 70px;
+    background-color:black;
+    color: aliceblue;
+    border-radius:4px;
+}
+.ser22{
+    margin-left: 70px;
+    background-color:black;
+    color: aliceblue;
+    border-radius:4px;
+}
+.contact{
+    display: flex;
+    background-color: azure;
+
+}
+.cdetails{
+    padding:50px;
+    margin-top: 70px;
+    background-color: rgb(6, 185, 185);
+
+}
+.address{
+    padding:50px;
+    margin-top: 70px;
+    margin-left:800px;
+    background-color: rgb(6, 185, 185);
+}
+a{
+    text-decoration:none;
+}
